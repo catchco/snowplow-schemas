@@ -3,7 +3,7 @@
     "title": "document",
     "description": "A custom context for tracking document attributes.",
     "properties": {
-      "body-classes": {
+      "bodyclasses": {
         "type": "array",
         "items": {
           "type": "string"
