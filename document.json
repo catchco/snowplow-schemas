@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "title": "document",
+    "description": "A custom context for tracking document attributes.",
+    "properties": {
+      "body-classes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+}

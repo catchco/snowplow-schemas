@@ -2,7 +2,20 @@
 
 ## VWO
 
-// TODO
+// TODO: Add more details here
+
+### Example usage
+
+```
+    window.snowplow('trackPageView', null,
+        [{
+            schema: 'https://cdn.jsdelivr.net/gh/catchco/snowplow-schemas@1.0/vwo.json',
+            data: {
+                tests: getVwoTests()
+            }
+        }]
+    );
+```
 
 ## Related reading
 
