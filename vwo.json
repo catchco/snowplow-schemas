@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "title": "vwo",
+    "description": "A custom context for tracking VWO test groups.",
+    "properties": {
+      "tests": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+}
